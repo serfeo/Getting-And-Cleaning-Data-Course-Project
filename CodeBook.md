@@ -54,139 +54,73 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 Only the measurements, on the mean and standard deviation, were extracted for each variable, that is why 66 variables are included into tidy data set. Then the average of each variable was calculated taking the volunteer and activity. Finally, tidy data has 180 measurements in 68 variables.
 
 ### DESCRIPTION OF VARIABLES
-#### Subject.Id     
-	volunteer number: 1, 2, 3, ... 28, 29 or 30 
-#### ActivityId            
-	type of activity: laying, sitting, standing, walking, walking_downstairs or walking_upstairs.
-#### TimeDomain.BodyAcceleration.Mean.X       
-	Average of body triaxial acceleration signals average in time, in the X direction.
-#### TimeDomain.BodyAcceleration.Mean.Y       
-	Average of body triaxial acceleration signals average in time, in the Y direction.
-#### TimeDomain.BodyAcceleration.Mean.Z       
-	Average of body triaxial acceleration signals average in time, in the Z direction.
-#### TimeDomain.BodyAcceleration.StandardDeviation.X        
-	Average of body triaxial acceleration signals standard deviation in time, in the X direction.
-#### TimeDomain.BodyAcceleration.StandardDeviation.Y        
-	Average of body triaxial acceleration signals standard deviation in time, in the Y direction.
-#### TimeDomain.BodyAcceleration.StandardDeviation.Z        
-	Average of body triaxial acceleration signals standard deviation in time, in the Z direction.
-#### TimeDomain.GravityAcceleration.Mean.X    
-	Average of gravity triaxial acceleration signals average in time, in the X direction.
-#### TimeDomain.GravityAcceleration.Mean.Y   
-	Average of gravity triaxial acceleration signals average in time, in the Y direction.
-#### TimeDomain.GravityAcceleration.Mean.Z    
-	Average of gravity triaxial acceleration signals average in time, in the Z direction.
-#### TimeDomain.GravityAcceleration.StandardDeviation.X     
-	Average of gravity triaxial acceleration signals standard deviation in time, in the X direction.
-#### TimeDomain.GravityAcceleration.StandardDeviation.Y     
-	Average of gravity triaxial acceleration signals standard deviation in time, in the Y direction.
-#### TimeDomain.GravityAcceleration.StandardDeviation.Z     
-	Average of gravity triaxial acceleration signals standard deviation in time, in the Z direction.
-#### TimeDomain.BodyAccelerationJerk.Mean.X   
-	Average of body linear triaxial acceleation signals average in time to obtain Jerk signals, in the X direction. 
-#### TimeDomain.BodyAccelerationJerk.Mean.Y   
-	Average of body linear triaxial acceleration signals average in time to obtain Jerk signals, in the Y direction. 
-#### TimeDomain.BodyAccelerationJerk.Mean.Z   
-	Average of body linear triaxial acceleration signals average in time to obtain Jerk signals, in the Z direction. 
-#### TimeDomain.BodyAccelerationJerk.StandardDeviation.X    
-	Average of body linear triaxial acceleration signals standard deviation in time to obtain Jerk signals, in the X direction. 
-#### TimeDomain.BodyAccelerationJerk.StandardDeviation.Y    
-	Average of body linear triaxial acceleration signals standard deviation in time to obtain Jerk signals, in the Y direction. 
-#### TimeDomain.BodyAccelerationJerk.StandardDeviation.Z    
-	Average of body linear triaxial acceleration signals standard deviation in time to obtain Jerk signals, in the Z direction. 
-#### TimeDomain.BodyAngularSpeed.Mean.X      
-	Average of body angular velocity average in time, in the X direction. 
-#### TimeDomain.BodyAngularSpeed.Mean.Y      
-	Average of body angular velocity average in time, in the Y direction. 
-#### TimeDomain.BodyAngularSpeed.Mean.Z      
-	Average of body angular velocity average in time, in the Z direction. 
-#### TimeDomain.BodyAngularSpeed.StandardDeviation.X       
-	Average of body angular velocity standard deviation in time, using X raw signal
-#### TimeDomain.BodyAngularSpeed.StandardDeviation.Y       
-	Average of body angular velocity standard deviation in time, using Y raw signal
-#### TimeDomain.BodyAngularSpeed.StandardDeviation.Z       
-	Average of body angular velocity standard deviation in time, using Z raw signal
-#### TimeDomain.BodyAngularSpeed.StandardDeviation.X  
-	Average of body angular velocity average  in time to obtain Jerk signals, in the X direction.
-#### TimeDomain.BodyAngularSpeed.StandardDeviation.Y  
-	Average of body angular velocity average  in time to obtain Jerk signals, in the Y direction.
-#### TimeDomain.BodyAngularSpeed.StandardDeviation.Z  
-	Average of body angular velocity average  in time to obtain Jerk signals, in the Z direction.
-#### TimeDomain.BodyAngularAcceleration.Mean.X   
-	Average of body angular velocity standard deviation in time to obtain Jerk signals, in the X direction.
-#### TimeDomain.BodyAngularAcceleration.Mean.Y   
-	Average of body angular velocity standard deviation in time to obtain Jerk signals, in the Y direction.
-#### TimeDomain.BodyAngularAcceleration.Mean.Z   
-	Average of body angular velocity standard deviation in time to obtain Jerk signals, in the Z direction.
-#### TimeDomain.BodyAccelerationMagnitude.Mean     
-	Average of body linear acceleration magnitude average in time. 
-#### TimeDomain.BodyAccelerationMagnitude.StandardDeviation      
-	Average of body linear acceleration magnitude standard deviation in time. 
-#### tgravityaccmagMean  
-	Average of gravity signals magnitude average in time.
-#### tgravityaccmagStd   
-	Average of gravity signals magnitude standard deviation in time.
-#### tbodyaccjerkmagMean 
-	Average of body linear acceleration magnitude average in time, in order to obtain Jerk signals. 
-#### tbodyaccjerkmagStd  
-	Average of body linear acceleration magnitude standard deviation in time, in order to obtain Jerk signals. 
-#### tbodygyromagMean    
-	Average of body angular velocity magnitude average in time.
-#### tbodygyromagStd     
-	Average of body angular velocity magnitude standard deviation in time.
-#### tbodygyrojerkmagMean
-	Average of body angular velocity magnitude average  in time, in order to obtain Jerk signals.
-#### tbodygyrojerkmagStd 
-	Average of body angular velocity magnitude standard deviation in time, in order to obtain Jerk signals.
-#### FrequencyDomain.BodyAcceleration.MeanFrequency.X       
-	Average of body triaxial acceleration signals average in frequency domain signals, using the X direction.
-#### FrequencyDomain.BodyAcceleration.MeanFrequency.Y       
-	Average of body triaxial acceleration signals average in frequency domain signals, using the Y direction.
-#### FrequencyDomain.BodyAcceleration.MeanFrequency.Z       
-	Average of body triaxial acceleration signals average in frequency domain signals, using the Z direction.
-#### FrequencyDomain.BodyAcceleration.StandardDeviation.X        
-	Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the X direction.
-#### FrequencyDomain.BodyAcceleration.StandardDeviation.Y        
-	Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the Y direction.
-#### FrequencyDomain.BodyAcceleration.StandardDeviation.Z        
-	Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the Z direction.
-#### FrequencyDomain.BodyAccelerationJerk.MeanFrequency.X   
-	Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the X direction. 
-#### FrequencyDomain.BodyAccelerationJerk.MeanFrequency.Y   
-	Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the Y direction. 
-#### FrequencyDomain.BodyAccelerationJerk.MeanFrequency.Z   
-	Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the Z direction. 
-#### FrequencyDomain.BodyAccelerationJerk.StandardDeviation.X    
-	Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the X direction. 
-#### FrequencyDomain.BodyAccelerationJerk.StandardDeviation.Y    
-	Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the Y direction. 
-#### FrequencyDomain.BodyAccelerationJerk.StandardDeviation.Z    
-	Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the Z direction. 
-#### FrequencyDomain.BodyAngularSpeed.Mean.X      
-	Average of body angular velocity average in frequency domain signals, using the X direction. 
-#### FrequencyDomain.BodyAngularSpeed.Mean.Y      
-	Average of body angular velocity average in frequency domain signals, using the Y direction.
-#### FrequencyDomain.BodyAngularSpeed.Mean.Z      
-	Average of body angular velocity average in frequency domain signals, using the Z direction.
-#### FrequencyDomain.BodyAngularSpeed.MeanFrequency.X       
-	Average of body angular velocity standar deviation in frequency domain signals, using the X direction.
-#### FrequencyDomain.BodyAngularSpeed.MeanFrequency.Y       
-	Average of body angular velocity standar deviation in frequency domain signals, using the X direction.
-#### FrequencyDomain.BodyAngularSpeed.MeanFrequency.Z       
-	Average of body angular velocity standar deviation in frequency domain signals, using the X direction.
-#### fbodyaccmagMean     
-	Average of body linear acceleration magnitude average in frequency domain signals. 
-#### fbodyaccmagStd      
-	Average of body linear acceleration magnitude average in frequency domain signals.
-#### fbodyaccjerkmagMean 
-	Average of body linear acceleration magnitude average in frequency domain signals, in order to obtain Jerk signals. 
-#### fbodyaccjerkmagStd  
-	Average of body linear acceleration magnitude standard deviation in frequency domain signals, in order to obtain Jerk signals. 
-#### fbodygyromagMean    
-	Average of body angular velocity magnitude average in frequency domain signals.
-#### fbodygyromagStd     
-	Average of body angular velocity magnitude standard deviation in frequency domain signals.
-#### fbodygyrojerkmagMean
-	Average of body angular velocity magnitude average  in frequency domain signals, in order to obtain Jerk signals.
-#### fbodygyrojerkmagStd 
-	Average of body angular velocity magnitude standard deviation  in frequency domain signals, in order to obtain Jerk signals.
+| Name     | Description          |
+|----------|----------------------|
+|Subject.Id| Volunteer id: [1, 30]| 
+|Activity.Id|type of activity: laying, sitting, standing, walking, walking_downstairs or walking_upstairs|
+[TimeDomain.BodyAcceleration.Mean.X|Average of body triaxial acceleration signals average in time, in the X direction|
+|TimeDomain.BodyAcceleration.Mean.Y|Average of body triaxial acceleration signals average in time, in the Y direction|
+|TimeDomain.BodyAcceleration.Mean.Z|Average of body triaxial acceleration signals average in time, in the Z direction|
+|TimeDomain.BodyAcceleration.StandardDeviation.X|Average of body triaxial acceleration signals standard deviation in time, in the X direction|
+|TimeDomain.BodyAcceleration.StandardDeviation.Y|Average of body triaxial acceleration signals standard deviation in time, in the Y direction|
+|TimeDomain.BodyAcceleration.StandardDeviation.Z|Average of body triaxial acceleration signals standard deviation in time, in the Z direction|
+|TimeDomain.GravityAcceleration.Mean.X|Average of gravity triaxial acceleration signals average in time, in the X direction|
+|TimeDomain.GravityAcceleration.Mean.Y|Average of gravity triaxial acceleration signals average in time, in the Y direction|
+|TimeDomain.GravityAcceleration.Mean.Z|Average of gravity triaxial acceleration signals average in time, in the Z direction|
+|TimeDomain.GravityAcceleration.StandardDeviation.X |Average of gravity triaxial acceleration signals standard deviation in time, in the X direction|
+|TimeDomain.GravityAcceleration.StandardDeviation.Y |Average of gravity triaxial acceleration signals standard deviation in time, in the Y direction|
+|TimeDomain.GravityAcceleration.StandardDeviation.Z |Average of gravity triaxial acceleration signals standard deviation in time, in the Z direction|
+|TimeDomain.BodyAccelerationJerk.Mean.X|Average of body linear triaxial acceleation signals average in time to obtain Jerk signals, in the X direction|
+|TimeDomain.BodyAccelerationJerk.Mean.Y|Average of body linear triaxial acceleration signals average in time to obtain Jerk signals, in the Y direction|
+|TimeDomain.BodyAccelerationJerk.Mean.Z|Average of body linear triaxial acceleration signals average in time to obtain Jerk signals, in the Z direction|
+|TimeDomain.BodyAccelerationJerk.StandardDeviation.X|Average of body linear triaxial acceleration signals standard deviation in time to obtain Jerk signals, in the X direction|
+|TimeDomain.BodyAccelerationJerk.StandardDeviation.Y|Average of body linear triaxial acceleration signals standard deviation in time to obtain Jerk signals, in the Y direction|
+|TimeDomain.BodyAccelerationJerk.StandardDeviation.Z|Average of body linear triaxial acceleration signals standard deviation in time to obtain Jerk signals, in the Z direction|
+|TimeDomain.BodyAngularSpeed.Mean.X  |Average of body angular velocity average in time, in the X direction|
+|TimeDomain.BodyAngularSpeed.Mean.Y  |Average of body angular velocity average in time, in the Y direction|
+|TimeDomain.BodyAngularSpeed.Mean.Z  |Average of body angular velocity average in time, in the Z direction|
+|TimeDomain.BodyAngularSpeed.StandardDeviation.X   |Average of body angular velocity standard deviation in time, using X raw signal|
+|TimeDomain.BodyAngularSpeed.StandardDeviation.Y   |Average of body angular velocity standard deviation in time, using Y raw signal|
+|TimeDomain.BodyAngularSpeed.StandardDeviation.Z   |Average of body angular velocity standard deviation in time, using Z raw signal|
+|TimeDomain.BodyAngularSpeed.StandardDeviation.X|Average of body angular velocity average  in time to obtain Jerk signals, in the X direction|
+|TimeDomain.BodyAngularSpeed.StandardDeviation.Y|Average of body angular velocity average  in time to obtain Jerk signals, in the Y direction|
+|TimeDomain.BodyAngularSpeed.StandardDeviation.Z|Average of body angular velocity average  in time to obtain Jerk signals, in the Z direction|
+|TimeDomain.BodyAngularAcceleration.Mean.X|Average of body angular velocity standard deviation in time to obtain Jerk signals, in the X direction|
+|TimeDomain.BodyAngularAcceleration.Mean.Y|Average of body angular velocity standard deviation in time to obtain Jerk signals, in the Y direction|
+|TimeDomain.BodyAngularAcceleration.Mean.Z|Average of body angular velocity standard deviation in time to obtain Jerk signals, in the Z direction|
+|TimeDomain.BodyAccelerationMagnitude.Mean |Average of body linear acceleration magnitude average in time|
+|TimeDomain.BodyAccelerationMagnitude.StandardDeviation  |Average of body linear acceleration magnitude standard deviation in time|
+|TimeDomain.GravityAccelerationMagnitude.Mean|Average of gravity signals magnitude average in time|
+|TimeDomain.GravityAccelerationMagnitude.StandardDeviation|Average of gravity signals magnitude standard deviation in time|
+|TimeDomain.BodyAccelerationJerkMagnitude.Mean|Average of body linear acceleration magnitude average in time, in order to obtain Jerk signals|
+|TimeDomain.BodyAccelerationJerkMagnitude.StandardDeviation|Average of body linear acceleration magnitude standard deviation in time, in order to obtain Jerk signals|
+|TimeDomain.BodyAngularSpeedMagnitude.Mean|Average of body angular velocity magnitude average in time|
+|TimeDomain.BodyAccelerationMagnitude.StandardDeviation |Average of body angular velocity magnitude standard deviation in time|
+|TimeDomain.BodyAccelerationJerkMagnitude.Mean|Average of body angular velocity magnitude average  in time, in order to obtain Jerk signals|
+|TimeDomain.GravityAccelerationMagnitude.StandardDeviation|Average of body angular velocity magnitude standard deviation in time, in order to obtain Jerk signals|
+|FrequencyDomain.BodyAcceleration.MeanFrequency.X   |Average of body triaxial acceleration signals average in frequency domain signals, using the X direction|
+|FrequencyDomain.BodyAcceleration.MeanFrequency.Y   |Average of body triaxial acceleration signals average in frequency domain signals, using the Y direction|
+|FrequencyDomain.BodyAcceleration.MeanFrequency.Z   |Average of body triaxial acceleration signals average in frequency domain signals, using the Z direction|
+|FrequencyDomain.BodyAcceleration.StandardDeviation.X|Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the X direction|
+|FrequencyDomain.BodyAcceleration.StandardDeviation.Y|Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the Y direction|
+|FrequencyDomain.BodyAcceleration.StandardDeviation.Z|Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the Z direction|
+|FrequencyDomain.BodyAccelerationJerk.MeanFrequency.X|Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the X direction|
+|FrequencyDomain.BodyAccelerationJerk.MeanFrequency.Y|Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the Y direction|
+|FrequencyDomain.BodyAccelerationJerk.MeanFrequency.Z|Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the Z direction|
+|FrequencyDomain.BodyAccelerationJerk.StandardDeviation.X|Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the X direction|
+|FrequencyDomain.BodyAccelerationJerk.StandardDeviation.Y|Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the Y direction|
+|FrequencyDomain.BodyAccelerationJerk.StandardDeviation.Z|Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the Z direction|
+|FrequencyDomain.BodyAngularSpeed.Mean.X  |Average of body angular velocity average in frequency domain signals, using the X direction|
+|FrequencyDomain.BodyAngularSpeed.Mean.Y  |Average of body angular velocity average in frequency domain signals, using the Y direction|
+|FrequencyDomain.BodyAngularSpeed.Mean.Z  |Average of body angular velocity average in frequency domain signals, using the Z direction|
+|FrequencyDomain.BodyAngularSpeed.MeanFrequency.X   |Average of body angular velocity standar deviation in frequency domain signals, using the X direction|
+|FrequencyDomain.BodyAngularSpeed.MeanFrequency.Y   |Average of body angular velocity standar deviation in frequency domain signals, using the Y direction|
+|FrequencyDomain.BodyAngularSpeed.MeanFrequency.Z   |Average of body angular velocity standar deviation in frequency domain signals, using the Z direction|
+|FrequencyDomain.BodyAccelerationMagnitude.Mean |Average of body linear acceleration magnitude average in frequency domain signals|
+|FrequencyDomain.BodyAccelerationMagnitude.StandardDeviation  |Average of body linear acceleration magnitude average in frequency domain signals|
+|FrequencyDomain.BodyAccelerationJerkMagnitude.Mean|Average of body linear acceleration magnitude average in frequency domain signals, in order to obtain Jerk signals|
+|FrequencyDomain.BodyAccelerationJerkMagnitude.StandardDeviation|Average of body linear acceleration magnitude standard deviation in frequency domain signals, in order to obtain Jerk signals|
+|FrequencyDomain.BodyAngularAccelerationMagnitude.Mean|Average of body angular velocity magnitude average in frequency domain signals|
+|FrequencyDomain.BodyAngularAccelerationMagnitude.StandardDeviation |Average of body angular velocity magnitude standard deviation in frequency domain signals|
+|FrequencyDomain.BodyAngularAccelerationJerkMagnitude.Mean|Average of body angular velocity magnitude average  in frequency domain signals, in order to obtain Jerk signals|
+|FrequencyDomain.BodyAngularAccelerationJerkMagnitude.StandardDeviation|Average of body angular velocity magnitude standard deviation  in frequency domain signals, in order to obtain Jerk signals|
