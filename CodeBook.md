@@ -58,7 +58,7 @@ Only the measurements, on the mean and standard deviation, were extracted for ea
 |----------|----------------------|
 |Subject.Id| Volunteer id: [1, 30]| 
 |Activity.Id|type of activity: laying, sitting, standing, walking, walking_downstairs or walking_upstairs|
-[TimeDomain.BodyAcceleration.Mean.X|Average of body triaxial acceleration signals average in time, in the X direction|
+|TimeDomain.BodyAcceleration.Mean.X|Average of body triaxial acceleration signals average in time, in the X direction|
 |TimeDomain.BodyAcceleration.Mean.Y|Average of body triaxial acceleration signals average in time, in the Y direction|
 |TimeDomain.BodyAcceleration.Mean.Z|Average of body triaxial acceleration signals average in time, in the Z direction|
 |TimeDomain.BodyAcceleration.StandardDeviation.X|Average of body triaxial acceleration signals standard deviation in time, in the X direction|

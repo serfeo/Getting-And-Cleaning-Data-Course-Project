@@ -34,14 +34,16 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Files
 
-* __CodeBook.md__: information about way to getting tidy data from raw
-* __README.md__: information file
+* __CodeBook.md__: information about way to getting tidy data from raw and the format of tidy data
+* __README.md__: this file
 * __run_analysis.R__: R script for getting tidy data from raw
+* __tidyDataSet.txt__: output of R script execution
 
 ## Using
 
 1. clone this repository: `git@github.com:serfeo/Getting-And-Cleaning-Data-Course-Project.git`
-2. open an R console and set the working directory to the repository root (use setwd())
-3. source run_analisys.R script (it requires the plyr package): `source('run_analysis.R')`
+2. open an R console and set the working directory to the repository root (use setwd()). There is no need to download data. It will download by script.
+3. source run_analisys.R script: 
+>> source('run_analysis.R')
 
 In the repository root directory you find the file `tinyDataSet.txt` with the tidy data set.
