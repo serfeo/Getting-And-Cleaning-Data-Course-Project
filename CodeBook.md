@@ -1,10 +1,7 @@
 Code Book
 ========
 
-Raw data collection
--------------------
-
-### Collection
+### Raw data collection
 
 Raw data are obtained from UCI Machine Learning repository. In particular we used
 the *Human Activity Recognition Using Smartphones Data Set*,
@@ -47,13 +44,13 @@ overlap (128 readings/window at 50 Hz).
 From each window, a vector of features was obtained by calculating variables
 from the time and frequency domain.
 
-### SUMMARY OF EXPERIMENT
+### Summary of experiments
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The original data set has 10299 measurements in  563 variables, where all datas are normalized and bounded within [-1,1].
 
-### DATA DESCRIPTION AND TRANSFORMATIONS
+### Data transformation
 Only the measurements, on the mean and standard deviation, were extracted for each variable, that is why 66 variables are included into tidy data set. Then the average of each variable was calculated taking the volunteer and activity. Finally, tidy data has 180 measurements in 68 variables.
 
-### DESCRIPTION OF VARIABLES
+### Tidy data description
 | Name     | Description          |
 |----------|----------------------|
 |Subject.Id| Volunteer id: [1, 30]| 
